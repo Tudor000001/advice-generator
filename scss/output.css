@@ -13,8 +13,6 @@ main {
   width: 600px;
   background-color: rgb(49, 59, 71);
   border-radius: 30px;
-  display: flex;
-  justify-content: center;
 }
 
 .title {
@@ -24,6 +22,43 @@ main {
   font-weight: 800;
   font-size: 15px;
   top: 40px;
+  left: 250px;
+  display: inline;
+}
+
+content {
+  position: relative;
+  color: white;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  align-content: center;
+  white-space: normal;
+}
+
+.imagine {
+  position: relative;
+  left: 80px;
+  top: 50px;
+}
+
+.button {
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  border: none;
+  top: 790px;
+  right: 880px;
+}
+
+.button:hover {
+  box-shadow: 0px 0px 50px 5px hsl(150, 100%, 66%);
 }
 
 /*# sourceMappingURL=output.css.map */
