@@ -1,0 +1,27 @@
+body {
+    font-family: Manrope;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 96vh;
+    background-color: rgba(32, 38, 50, 255);
+}
+
+main {
+    height: 400px;
+    width: 600px;
+    background-color: rgba(49, 59, 71, 255);
+    border-radius: 30px;
+    display:flex;
+    justify-content:center;
+}
+
+.title{
+    position:relative;
+    color: hsl(150, 100%, 66%);
+    letter-spacing:5px;
+    font-weight:800;
+    font-size:15px;
+    top:40px;
+}
